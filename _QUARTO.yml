@@ -1,9 +1,13 @@
 project:
   type: website
-  output-dir: docs
+  title: "My Learning Site"
+  navigation:
+    - text: "Home"
+      href: FINALPROJECT.qmd
+    
 
 website:
-  title: "FINAL- PROJECT"
+  title: "FIFA_22"
   navbar:
     left:
     - FINALPROJECT.qmd
