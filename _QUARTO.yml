@@ -3,7 +3,7 @@ project:
   output-dir: docs
 
 website:
-  title: "FINAL PROJECT"
+  title: "FINAL- PROJECT"
   navbar:
     left:
     - FINALPROJECT.qmd
