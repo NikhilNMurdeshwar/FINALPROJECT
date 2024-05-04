@@ -1,0 +1,15 @@
+project:
+  type: website
+  output-dir: docs
+
+website:
+  title: "FINALPROJECT"
+  navbar:
+    left:
+    - FINALPROJECT.qmd
+    
+    
+
+format:
+  html:
+    theme: sandstone
