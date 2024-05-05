@@ -1,19 +1,36 @@
 project:
   type: website
-  title: "My Learning Site"
-  navigation:
-    - text: "Home"
-      href: FINALPROJECT.qmd
-    
+  output-dir: docs
 
 website:
-  title: "FIFA_22"
+  title: "FINAL PROJECT"
+  
+  
   navbar:
-    left:
-    - FINALPROJECT.qmd
+    website:
     
+  sidebar:
+    style: "floating"
+    type: dark
+    border: True
+    search: true
+    contents:
+      
+      - section: "Final_Project"
+        contents:
+          - Dummy1.qmd
+          - layout-knitr.qmd
+          - layout-jupyter.qmd
+      
     
+      
 
-format:
-  html:
-    theme: sandstone
+      
+
+    
+settings:
+  responsive: true
+
+
+editor: visual
+
