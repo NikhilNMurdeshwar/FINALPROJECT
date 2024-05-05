@@ -3,8 +3,7 @@ project:
   output-dir: docs
 
 website:
-  title: "FINAL PROJECT"
-  
+  title: "Comparative Study of Top Football Leagues Using FIFA 22 Data"
   
   navbar:
     website:
@@ -18,8 +17,8 @@ website:
       
       - section: "Final_Project"
         contents:
-          - Dummy1.qmd
-          - layout-knitr.qmd
+          - INTRODUCTION.qmd
+          - DATA SET.qmd
           - layout-jupyter.qmd
       
     
