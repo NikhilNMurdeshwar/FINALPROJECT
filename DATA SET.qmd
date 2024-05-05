@@ -8,7 +8,6 @@ editor: visual
 
 ```{r .fold}
 # Install and load the dplyr library
-install.packages("dplyr")
 library(dplyr)
 
 rm(Fifa_22)
